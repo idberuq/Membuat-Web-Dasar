@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     }
-
+    /*body font type*/
     body {
     font-family: Arial, Helvetica, sans-serif;
     }
@@ -60,7 +60,7 @@
         flex-direction: column;
     }
     }
-
+    /* css for button*/
     .button {
         border: none;
         color: white;
@@ -73,24 +73,24 @@
         transition-duration: 0.4s;
         cursor: pointer;
       }
-      
+      /* button1 background and color*/
       .button1 {
         background-color: white; 
         color: black; 
         border: 2px solid #4CAF50;
       }
-      
+      /* button1 animation effect color*/
       .button1:hover {
         background-color: #4CAF50;
         color: white;
       }
-      
+      /* button2 background and color*/
       .button2 {
         background-color: white; 
         color: black; 
         border: 2px solid #008CBA;
       }
-      
+      /* button1 animation effect color*/
       .button2:hover {
         background-color: #008CBA;
         color: white;
